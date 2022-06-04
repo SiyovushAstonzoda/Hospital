@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+}
+.container {
+  display: grid;
+}
+.top {
+  padding: 30px 150px 60px 150px;
+  margin: auto;
+  background-image: url(../Images/photo_2022-05-29_00-59-24.jpg);
+  background-size: 100%;
+  width: 1010.22px;
+  height: 573.16px;
+  color: white;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 24% 76%;
+}
+.navbar .navbrand {
+  width: 101.72px;
+  height: 22.45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.8369px;
+  line-height: 22px;
+  letter-spacing: 0.0701538px;
+}
+.navbar .header {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.navbar .header .one {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+}
+.navbar .header .two button {
+  width: 133.29px;
+  height: 36.48px;
+  border-radius: 3.51px;
+  background-color: #23a6f0;
+  color: white;
+  border: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row h1 {
+  margin-left: 60px;
+  margin-top: 200px;
+  width: 500px;
+  height: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 56px;
+}
+.row p {
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 263.78px;
+  height: 42.09px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.row .left .hi .one {
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 133.29px;
+  height: 36.48px;
+  border-radius: 20px;
+  background-color: #23a6f0;
+  color: white;
+  border: 0;
+}
+.row .left .hi .two {
+  width: 133.29px;
+  height: 36.48px;
+  border-radius: 20px;
+  background: fixed;
+  color: white;
+  border: 1px solid white;
+}
+.row .right {
+  color: black;
+  background-color: white;
+  margin: 80px 100px 0 270px;
+  padding: 27px;
+  width: 360px;
+  height: 390px;
+  border-radius: 8px;
+}
+.row .right form h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 35px;
+}
+.row .right label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  line-height: 17px;
+}
+.row .right input,
+select {
+  border: 0;
+  background-color: rgb(228, 228, 228);
+  width: 250px;
+  height: 42px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.row .right button {
+  width: 100%;
+  height: 40px;
+  border-radius: 3.51px;
+  background-color: #23a6f0;
+  color: white;
+  border: 0;
+}
+.mid {
+  width: 1010.22px;
+  height: 573.16px;
+  margin: auto;
+}
+.content {
+  display: flex;
+}
+.card {
+  padding: 20px;
+}
+.card .first {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  padding: 35px 70px 35px 50px;
+  width: 200px;
+  background-color: #8ec2f2;
+  border-radius: 8px;
+}
+.center {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  margin: 60px;
+  font-size: 50px;
+}
+.center p {
+  opacity: 0.7;
+  margin-left: 80px;
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+}
+
+.card .first .ao {
+  display: flex;
+}
+.card .first img {
+  width: 80px;
+}
+.card .first h3 {
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 14px;
+}
+.card .second {
+  padding: 50px;
+  height: 250px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.6;
+  border-radius: 7px;
+  border: solid #8ec2f2;
+}
+.card .second a {
+  text-decoration: none;
+  color: #23a6f0;
+  opacity: 100%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+}
+
+.footer > div {
+  width: 240px;
+  height: 150px;
+  padding: 20px;
+}
+
+.footer h3 {
+  margin: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.footer .first .images {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.footer.images a {
+  padding-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.end {
+  text-align: center;
+
+  margin-top: 600px; 
+  width: 1440px;
+  height: 76px;
+  background-color: rgb(183, 180, 180);
+}
+.end p{
+  margin-top: 20px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #5b5959;
+}
+
+button:hover{
+ background-color: black;
+ color: red;
+}
